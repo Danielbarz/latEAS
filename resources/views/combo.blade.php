@@ -26,7 +26,7 @@
                     </form>
                 </div>
                 <div class="card-footer text-center">
-                    © Faizah Johan, 2023
+                    © Bara, 2025
                 </div>
             </div>
         </div>
