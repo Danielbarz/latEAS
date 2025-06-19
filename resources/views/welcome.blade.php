@@ -272,6 +272,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/combo"><i class="fas fa-th-large"></i>Kategori</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/karyawan"><i class="fas fa-th-large"></i>Karyawan</a>
+            </li>
         </ul>
     </nav>
 

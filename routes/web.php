@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\KaryawanController;
+
 
 use App\Http\Controllers\Controller;
 
@@ -51,3 +53,8 @@ Route::get('/combo', [KategoriController::class, 'showComboForm']);
 // Kita gunakan GET agar sesuai dengan contoh di soal
 Route::get('/hasilcombo', [KategoriController::class, 'handleComboResult']);
 
+
+Route::get('/karyawan', [KaryawanController::class, 'index'])->name('index');
+Route::get('/karyawan/tambah', [KaryawanController::class, 'create'])->name('create');
+Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('store');
+Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']);
