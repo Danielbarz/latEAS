@@ -275,6 +275,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="/karyawan"><i class="fas fa-th-large"></i>Karyawan</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/counter"><i class="fas fa-th-large"></i>Counter</a>
+            </li>
         </ul>
     </nav>
 

@@ -5,6 +5,7 @@ use App\Http\Controllers\ChatController;
 use App\Http\Controllers\MahasiswaController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\KaryawanController;
+use App\Http\Controllers\CounterController;
 
 
 use App\Http\Controllers\Controller;
@@ -58,3 +59,6 @@ Route::get('/karyawan', [KaryawanController::class, 'index'])->name('index');
 Route::get('/karyawan/tambah', [KaryawanController::class, 'create'])->name('create');
 Route::post('/karyawan/store', [KaryawanController::class, 'store'])->name('store');
 Route::get('/karyawan/hapus/{kodepegawai}', [KaryawanController::class, 'hapus']);
+
+
+Route::get('/counter', [CounterController::class, 'index']);
